@@ -19,7 +19,7 @@ const initializeDBAndServer=async ()=>{
             driver:sqlite3.Database
         })
         app.listen(3008,()=>{
-            console.log("port running")
+            console.log("port running1")
         })
         
        }catch(e){
